@@ -1,0 +1,53 @@
+.navbar{
+    background: #008080;
+}
+.nav-link, .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background: #0798c9;
+    color: #11040e;
+}
+.navbar-brand:hover{
+    color: #0798c9;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #fff !important;
+}
+.bg-dark{
+    background-color: #343a40 !important;
+}
+.bg-primary{
+    background-color: #343a40 !important;
+}
+.header{
+    background-image: url('../img/clinic_2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0; 
+    background: rgba(244,244,244,0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description p{
+    color: #343a40;
+    font-size: 20px;
+    width: 100%;
+    line-height: 1.5;
+}
